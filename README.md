@@ -18,3 +18,5 @@ GRU is similar to LSTM, but it has fewer gates. Also, it relies solely on a hidd
 Next, the process repeats for timestep t+1, etc., until the recurrent unit processes the entire sequence.
 
 Now, we will use GRU to create a many-to-many prediction model, which means using a sequence of values to predict the following sequence. Note that GRU could also be used in one-to-one (not recommended because it’s not sequence data), many-to-one, and one-to-many setups.
+
+GRU and LSTM are similar not only in their architecture but also in their predictive ability. Hence, it’s up to you to try them both before picking your favourite. 
